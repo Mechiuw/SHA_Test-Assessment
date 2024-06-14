@@ -27,8 +27,8 @@ public class Main {
                 ));
         System.out.println("uppercase : " + wordsMap.getOrDefault("uppercase",0L));
         System.out.println("lowercase : " + wordsMap.getOrDefault("lowercase",0L));
-        System.out.println("lowercase : " + wordsMap.getOrDefault("digitcase",0L));
-        System.out.println("othercase : " + wordsMap.getOrDefault("other",0L));
+        System.out.println("angka : " + wordsMap.getOrDefault("digitcase",0L));
+        System.out.println("symbol : " + wordsMap.getOrDefault("other",0L));
     }
     public static int roger(int k, int b){
         if(b == 1) return 1;
