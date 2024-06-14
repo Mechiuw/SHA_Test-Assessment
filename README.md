@@ -14,7 +14,7 @@ This code consist by 3 questions
 - [Contact](#contact)
   
 ## Code
-1) to find how many times rusak() function recursively prints "hello";
+# 1) to find how many times rusak() function recursively prints "hello";
 ```java
 public static void rusak(int n){
         if(n == 0){
@@ -34,7 +34,7 @@ Karena :
 1000 Hello n/2 -> 500 Hello n/2 -> 250 Hello n/2 -> 125 Hello n/2 -> 62 Hello n/2 -> 31 Hello n/2 -> 15 Hello n/2 -> 7 Hello n/2 -> 3 Hello n/2 -> 1 Hello
 maka akan ada (1000 + 500 + 250 + 125 + 62 + 31 + 15 + 7 + 3 + 1 ) = 1994 Hello
 
-2) to find the return value of roger(x,y) function
+# 2) to find the return value of roger(x,y) function
 ```java
 public static int roger(int k, int b){
         if(b == 1) return 1;
@@ -47,7 +47,7 @@ it returns 4 (translate:indonesia)
 Value yang di return ada 4 karena, 
 roger(1 + 1 + 1 + 1) pemanggilan recursive => 4.
 
-3) to make a program to map a string to count each (uppercase characters, lowercase characters, digit characters, and symbol characters
+# 3) to make a program to map a string to count each (uppercase characters, lowercase characters, digit characters, and symbol characters
 ```java
 public static void validateString(String words){
         Map<String, Long> wordsMap = words.chars()
