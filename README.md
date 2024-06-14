@@ -28,6 +28,12 @@ public static void rusak(int n){
     }
 ```
 
+it prints 1994 times (translate:indonesia)
+Akan mengembalikan nilai sebanyak 1994 kali,
+Karena :
+1000 Hello n/2 -> 500 Hello n/2 -> 250 Hello n/2 -> 125 Hello n/2 -> 62 Hello n/2 -> 31 Hello n/2 -> 15 Hello n/2 -> 7 Hello n/2 -> 3 Hello n/2 -> 1 Hello
+maka akan ada (1000 + 500 + 250 + 125 + 62 + 31 + 15 + 7 + 3 + 1 ) = 1994 Hello
+
 2) to find the return value of roger(x,y) function
 ```java
 public static int roger(int k, int b){
@@ -36,6 +42,10 @@ public static int roger(int k, int b){
         else return 0 + roger(k, --b);  // return
     }
 ```
+
+it returns 4 (translate:indonesia)
+Value yang di return ada 4 karena, 
+roger(1 + 1 + 1 + 1) pemanggilan recursive => 4.
 
 3) to make a program to map a string to count each (uppercase characters, lowercase characters, digit characters, and symbol characters
 ```java
@@ -62,6 +72,15 @@ public static void validateString(String words){
         System.out.println("symbol : " + wordsMap.getOrDefault("other",0L));
     }
 ```
+
+it returns the mapped characters from string (translate:indonesia)
+String yang dipakai : "pemrroRGGggramanDasarJ##a&&va18765-"
+Validasi String yang didapat :
+uppercase : 5
+lowercase : 20
+angka : 5
+symbol : 5
+
 ### Thankyou for the review 
 
 ## Contact
