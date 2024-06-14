@@ -86,5 +86,5 @@ symbol : 5
 <br>
 ## Contact
 Contact me for more further development projects :<br>
-Github : [https://github.com/Mechiuw](https://github.com/Mechiuw)<br>
-Instagram : [https://www.instagram.com/mechiuw/](https://www.instagram.com/mechiuw/)<br>
+Github : [https://github.com/Mechiuw](https://github.com/Mechiuw) <br>
+Instagram : [https://www.instagram.com/mechiuw/](https://www.instagram.com/mechiuw/) <br>
